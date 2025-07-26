@@ -119,8 +119,47 @@ nav{
     width: 270px;
     border: none;
     margin-top: 10px;
+    margin-bottom: 30px;
 
 }
 .plant-item{
     text-align: center;
+}
+.flower-lover{
+    max-width: 1140px;
+    margin: 200px auto;
+    gap: 60px;
+}
+.flower-store-title{
+    font-size: 3.1rem;
+    font-weight: bold;
+    color: #000000;
+
+}
+.flower-store-points{
+
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+.join{
+    background-image: url(/assets/news-letter-bg.png );
+    max-width: auto;
+    height: 540px;
+    
+}
+.join-details{
+    
+    text-align: center;
+    padding:  199px 305px;
+}
+.join-title{
+    font-weight: bold;
+    font-size: 3.1rem;
+    color: #ffffff;
+}
+.input{
+    width: 644px;
+    height: 50px;
+    
 }
