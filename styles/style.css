@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.display-flex{
+    display: flex;
+}
+.nav-item{
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 16px;
+    font: weight 400px;
+    color: #8987A1;
+}
+.nav-link-bold{
+    text-decoration: none;
+    font-weight: bold;
+    color: #252432;
+}
+.nav-link-regular{
+    text-decoration: none;
+    font-weight: 400px;
+    color: #252432;
+}
+.link-items{
+    gap: 48px;
+}
+nav{
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.banner{
+    max-width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 4.06rem;
+    color: #000000;
+
+
+}
+.title-branch{
+    color: #E95A08;
+}
+.banner-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.3rem;
+    font-weight: 400;
+
+}
+.our-plants{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+.our-plant-para{
+    justify-content: center;
+    text-align: center;
+
+}
+.our-plant-title{
+    font-size: 3.1rem;
+    font-weight: bold;
+
+}
+.our-plant-title-branch{
+    color: #E95A08;
+
+}
+.our-plant-description{
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.5);
+
+
+}
+.our-plant-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+
+}
+.our-store-description{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #111111;
+    
+
+}
+.our-store-price{
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #111111;
+    margin-top: 20px;
+
+
+}
+.btn-primary{
+    background-color: #E95A08;
+    color: #ffffff;
+    padding: 26px 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 270px;
+    border: none;
+    margin-top: 10px;
+
+}
+.plant-item{
+    text-align: center;
+}
