@@ -222,6 +222,42 @@ nav{
     height: 36px;
 
 }
+.latest-deals{
+    text-align: center;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.latest-deals img{
+    border-radius: 20px;
+}
+.latest-deals-title{
+      font-size: 3.1rem;
+      font-weight: bold;
+
+
+}
+.branch{
+    color: #E95A08;
+}
+.latest-deals-description{
+    font-size: 1.3;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+.collage{
+    
+    
+    gap: 25px;
+    margin-bottom: 30px;
+}
+.image1{
+    margin-bottom: 20px;
+
+}
+.one-image{
+    width: 753px;
+}
 
 @media screen and (max-width: 576px) {
     .nav{
@@ -262,6 +298,10 @@ nav{
 }
 #one,#two,#three{
     display: none;
+}
+.collage{
+    flex-direction: column;
+    
 }
     
     
